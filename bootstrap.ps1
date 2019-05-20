@@ -43,4 +43,4 @@ $process.WaitForExit()
 if ($process.ExitCode -ne 0) { exit $process.ExitCode }
 
 Pop-Location
-exit $LASTEXITCODE
+return $LASTEXITCODE
